@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    />
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="cs.css" />
+  </head>
+  <body>
+    <!-- เมนู -->
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="header-gradient" href="#" style="text-transform: uppercase"
+          >CSMJU yearbook</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">หน้าหลัก</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">รวมรุ่น</a>
+            </li>
+            <li class="nav-link active">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                ชมรม
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="">CSMJU STUDIO</a></li>
+                <li><a class="dropdown-item" href="">CSMJU CLUB</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+<!-- หัว -->
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>ทำเนียบรุ่น</h1>
+        <p><h3">คณะวิทยาศาสตร์ สาขาวิทยาการคอมพิวเตอร์</h3></p>
+      </div>
+    </div>
+<!-- จำนวนรุ่น -->
+    <p><h1 style="text-transform: uppercase; border: 2px" class="generation-all" >generation</h1></p>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="c-m" />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 1</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="page.html" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="c-m" />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 2</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 3</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 4</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 5</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 6</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 7</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 8</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 9</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 10</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 11</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 12</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 13</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 14</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 15</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div><div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 16</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 17</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 18</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 19</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 20</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 21</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 22</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 23</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 24</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 25</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 26</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 27</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 28</h3>
+              <p class="card-text">ปีการศึกษา : ****</p>
+              <p class="card-text">จบการศึกษา : ****</p>
+              <p class="card-text">จำนวนนักศึกษา : ****</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 29</h3>
+              <p class="card-text">ปีการศึกษา : 2566</p>
+              <p class="card-text">จบการศึกษา : กำลังศึกาษา</p>
+              <p class="card-text">จำนวนนักศึกษา : 96</p>
+              <a href="page.html" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/IMG_0525.JPG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title">นักศึกษารุ่นที่ 30</h3>
+              <p class="card-text">ปีการศึกษา : 2567</p>
+              <p class="card-text">จบการศึกษา : กำลังศึกาษา</p>
+              <p class="card-text">จำนวนนักศึกษา : 116</p>
+              <a href="#" class="btn btn-primary">รายละเอียด</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
